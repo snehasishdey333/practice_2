@@ -1,0 +1,80 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Vinyl', cursive; */
+
+
+
+.navbar{
+    width: 100%;
+    /* top:0; */
+    display: flex;
+    height: 60px;
+    /* position: fixed; */
+    background-color: rgb(138, 105, 255);
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    height: 100%;
+    width: 100%;
+    flex: 4;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 100px;
+    
+}
+.logo{
+   font-family: 'Rubik Vinyl', cursive;
+   color: white;
+   cursor: pointer;
+}
+.middle{
+    flex:4;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.navList{
+    display: flex;
+    list-style: none;
+}
+.navListItem{
+    margin-left: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+   
+}
+.navListItem:hover{
+    color: black;
+}
+.right{
+    flex:4;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navIcon{
+    margin-top: 15px;
+    color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.navBtn{
+    background-color: white;
+    border: none;
+    color: rgb(138, 105, 255);
+    border-radius: 20px;
+    font-size: 15px;
+    padding:10px 30px;
+    cursor: pointer;
+}
+.navBtn:hover{
+    color: black;
+}
